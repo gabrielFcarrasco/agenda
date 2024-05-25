@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poetsen+One&display=swap');
+
+body {
+    background-color: #e0d4d4;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #7f6867;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#bemvinda {
+    background-color: #908a88;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo{}
+
+.h1 {
+    margin: 0;
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+article, .fundo {
+    background-color: #908a88;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.h4 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.slider {
+    position: relative;
+    max-width: 800px;
+    max-height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.img {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.img.zoom {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+span {
+    font-weight: 700;
+    background-color: #7f6867;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+h2, h3, h4 {
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.agendamento, .insta {
+    margin: 20px 0;
+}
+
+.btn-agenda {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    background-color: #a59a98;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #cac4c2;
+    border: #e0d4d4 solid;
+}
+
+.fim{
+    color: #7f6867;
+}
+
+footer {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    background-color: #7f6867;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#insta img {
+    width: 40px;
+    height: 40px;
+}
